@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>준비 중 | 도도랩스</title>
+<meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,500;0,600;0,700;0,800;1,800;1,900&family=Noto+Sans+KR:wght@400;500;700;900&display=swap" rel="stylesheet">
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="./styles.css?v=118">
+</head>
+<body>
+<div class="page">
+<header class="site-header">
+  <div class="wrap header-row">
+    <a href="./index.html" class="logo">DODO<span class="accent">/</span>LABS</a>
+    <nav aria-label="주요 메뉴" class="nav">
+      <a href="./index.html#games">GAMES</a>
+      <a href="./index.html#numbers">WORK</a>
+      <a href="./team.html">TEAM CULTURE</a>
+      <a href="./mdm.html">몇대몇</a>
+      <a href="./company.html">COMPANY</a>
+      <a href="./contact.html" class="btn btn-sm">CONTACT</a>
+    </nav>
+  </div>
+  <div class="wrap">
+    <nav aria-label="서비스 카테고리" class="cats">
+      <a href="./dev.html?cat=개발">개발</a>
+      <a href="./dev.html?cat=마케팅">마케팅</a>
+      <a href="./dev.html?cat=운영">운영</a>
+      <a href="./dev.html?cat=유지보수">유지보수</a>
+      <a href="./dev.html?cat=서비스 고객센터">서비스 고객센터</a>
+    </nav>
+  </div>
+</header>
+<main class="dev-page">
+  <img class="bg-img" src="./assets/ref_glow.jpg" alt="" style="height:100%;opacity:.3">
+  <div class="wrap rel">
+    <div class="label" id="devCat">서비스</div>
+    <h1 class="h2 h2-xl"><span class="grad">개발중</span>입니다</h1>
+    <p class="lead" style="margin-top:24px">이 영역은 준비 중입니다. 지금은 몇대몇 서비스만 운영하고 있습니다.</p>
+    <div class="dev-links">
+      <a href="./index.html#mdm" class="btn btn-lg">몇대몇 보기</a>
+      <a href="./index.html" class="link">홈으로 →</a>
+    </div>
+  </div>
+</main>
+<footer class="site-footer">
+  <div class="wrap footer-row">
+    <div class="logo">DODO<span class="accent">/</span>LABS</div>
+    <div class="company"><div>문의 dev@dodolabs.kr</div></div>
+  </div>
+</footer>
+</div>
+<script>
+(function(){var c=new URLSearchParams(location.search).get('cat');if(c){document.getElementById('devCat').textContent=c;document.title=c+' · 준비 중 | 도도랩스';}})();
+</script>
+</body>
+</html>
