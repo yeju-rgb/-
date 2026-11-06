@@ -37,7 +37,7 @@
       ctx.rotate(rot);
       ctx.beginPath();
       ctx.ellipse(0, 0, rx, ry, 0, 0, Math.PI * 2);
-      ctx.strokeStyle = i % 5 === 0 ? 'rgba(47,217,255,' + (0.22 + 0.08 * breathe).toFixed(3) + ')' : 'rgba(255,255,255,' + (0.05 + 0.07 * (1 - t) + 0.02 * breathe).toFixed(3) + ')';
+      ctx.strokeStyle = i % 5 === 0 ? 'rgba(95,196,230,' + (0.22 + 0.08 * breathe).toFixed(3) + ')' : 'rgba(255,255,255,' + (0.05 + 0.07 * (1 - t) + 0.02 * breathe).toFixed(3) + ')';
       ctx.lineWidth = 1;
       ctx.stroke();
       ctx.restore();
