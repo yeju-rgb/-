@@ -896,3 +896,17 @@ body::before,body::after{display:none;content:none;animation:none}
 .ct-submit{align-self:flex-start;margin-top:6px}
 .ct-note{margin:0;font-size:12px;color:var(--sub2);line-height:1.6}
 @media (max-width:900px){.ct-scope li a{grid-template-columns:40px 1fr;gap:12px}.ct-scope .ct-d{grid-column:2}.ct-steps{grid-template-columns:1fr 1fr}.ct-contact{grid-template-columns:1fr;gap:40px}.ct-mail{font-size:26px}}
+
+/* 112차: 서비스 페이지(개발·마케팅·운영·유지보수) 카드 이미지 제거 → 3단 타이포 그리드 */
+.value-list.svc-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:56px 48px}
+.svc-grid .value{position:relative;height:auto;border:0;border-radius:0;overflow:visible;background:transparent;padding:28px 0 0}
+.svc-grid .value::before{content:"";position:absolute;left:0;top:0;width:28px;height:2px;background:var(--accent)}
+.svc-grid .value-copy{position:static;padding:0;transform:none;opacity:1}
+.svc-grid .value-copy h3{font-family:Inter,'Noto Sans KR',sans-serif;font-size:28px;font-weight:600;letter-spacing:-.02em;margin:0 0 14px;color:#fff}
+.svc-grid .value-copy p{margin:0;font-size:15px;line-height:1.8;color:var(--sub)}
+@media (max-width:900px){.value-list.svc-grid{grid-template-columns:1fr;gap:36px}}
+.svc-grid .value::before{display:none}
+.svc-grid .value{padding-top:0}
+.svc-grid .value-copy{background:none}
+.svc-grid .value-copy h3{font-family:'Inter','Noto Sans KR',sans-serif;font-size:30px;font-weight:700;letter-spacing:-.035em}
+.svc-grid .value-copy p{color:var(--sub)}
