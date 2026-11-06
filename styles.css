@@ -910,3 +910,6 @@ body::before,body::after{display:none;content:none;animation:none}
 .svc-grid .value-copy{background:none}
 .svc-grid .value-copy h3{font-family:'Inter','Noto Sans KR',sans-serif;font-size:30px;font-weight:700;letter-spacing:-.035em}
 .svc-grid .value-copy p{color:var(--sub)}
+
+/* 114차: 제목 그라데이션 약하게 — 색 폭 좁히고 채도 낮춤 */
+.grad{background:linear-gradient(98deg,#d9edf4 0%,#86cde3 45%,#a9dcea 100%);-webkit-background-clip:text;background-clip:text}
