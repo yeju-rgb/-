@@ -945,3 +945,9 @@ body::before,body::after{display:none;content:none;animation:none}
 .game-img.soon{display:flex;align-items:center;justify-content:center;background:rgba(255,255,255,.04)!important;border:0;overflow:hidden;position:relative}
 .game-img.soon .soon-t{font-family:Inter,sans-serif;font-size:30px;line-height:1;font-weight:800;font-style:italic;letter-spacing:-.02em;text-align:center;color:transparent;-webkit-text-stroke:1px rgba(255,255,255,.55);transition:color .4s ease,-webkit-text-stroke-color .4s ease,transform .6s cubic-bezier(.2,.7,.2,1)}
 .game:hover .game-img.soon .soon-t{color:rgba(255,255,255,.92);-webkit-text-stroke-color:transparent;transform:scale(1.04)}
+
+/* 121차: 게임 카드 키아트 복귀 + COMING SOON 띠 */
+.game-img.soon-img{position:relative;overflow:hidden}
+.game-img.soon-img img{filter:brightness(.72) saturate(.9);transition:filter .5s ease,transform .7s cubic-bezier(.2,.7,.2,1)}
+.game:hover .game-img.soon-img img{filter:brightness(.85) saturate(1);transform:scale(1.04)}
+.soon-band{position:absolute;left:0;right:0;top:50%;transform:translateY(-50%);padding:10px 0;text-align:center;font-family:Inter,sans-serif;font-size:12px;font-weight:700;letter-spacing:.3em;color:#fff;background:rgba(0,0,0,.45);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);z-index:2;pointer-events:none}
