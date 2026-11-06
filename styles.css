@@ -940,3 +940,8 @@ body::before,body::after{display:none;content:none;animation:none}
 .progress{background:rgba(255,255,255,.45)!important}
 .ghost-no{-webkit-text-stroke:1px rgba(255,255,255,.1)}
 .value-list:not(.svc-grid) .value-copy h3{font-size:28px!important}
+
+/* 120차: 게임 카드 이미지 → COMING SOON 타이포 */
+.game-img.soon{display:flex;align-items:center;justify-content:center;background:rgba(255,255,255,.04)!important;border:0;overflow:hidden;position:relative}
+.game-img.soon .soon-t{font-family:Inter,sans-serif;font-size:30px;line-height:1;font-weight:800;font-style:italic;letter-spacing:-.02em;text-align:center;color:transparent;-webkit-text-stroke:1px rgba(255,255,255,.55);transition:color .4s ease,-webkit-text-stroke-color .4s ease,transform .6s cubic-bezier(.2,.7,.2,1)}
+.game:hover .game-img.soon .soon-t{color:rgba(255,255,255,.92);-webkit-text-stroke-color:transparent;transform:scale(1.04)}
