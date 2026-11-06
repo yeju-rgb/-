@@ -951,3 +951,8 @@ body::before,body::after{display:none;content:none;animation:none}
 .game-img.soon-img img{filter:brightness(.72) saturate(.9);transition:filter .5s ease,transform .7s cubic-bezier(.2,.7,.2,1)}
 .game:hover .game-img.soon-img img{filter:brightness(.85) saturate(1);transform:scale(1.04)}
 .soon-band{position:absolute;left:0;right:0;top:50%;transform:translateY(-50%);padding:10px 0;text-align:center;font-family:Inter,sans-serif;font-size:12px;font-weight:700;letter-spacing:.3em;color:#fff;background:rgba(0,0,0,.45);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);z-index:2;pointer-events:none}
+
+/* 122차: COMING SOON 띠 약하게 */
+.soon-band{padding:7px 0;font-size:11px;letter-spacing:.26em;background:rgba(0,0,0,.26);backdrop-filter:blur(3px);-webkit-backdrop-filter:blur(3px);color:rgba(255,255,255,.92)}
+.game-img.soon-img img{filter:brightness(.82) saturate(.95)}
+.game:hover .game-img.soon-img img{filter:brightness(.92) saturate(1)}
